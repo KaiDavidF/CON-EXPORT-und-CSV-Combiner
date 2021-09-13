@@ -1,4 +1,4 @@
-~Funktionsweise~
+#Funktionweise#
 
 Das Programm erstellt **Patientenbuch & CON-Datei**. 
 1. Programm über "Run" im Jupyter Notebook ausführen
