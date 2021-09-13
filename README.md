@@ -1,22 +1,10 @@
-# CON-EXPORT-und-CSV-Combiner
+#Funktionsweise
 
-Beide Programme müssen in einem Jupyter Notebook ausgeführt werden. 
-Dazu kann man die beiden von aus dem Repository herunterladen und 
-auf Jupyter hochladen. 
-Danach sollten die Dateien ausführbar sein. 
-Um eine Datei auszuführen, muss oben auf "Run" gedrückt werden. 
-Dann kann der Code versteckt werden. 
+Das Programm erstellt **Patientenbuch & CON-Datei**. 
+1. Programm über "Run" im Jupyter Notebook ausführen
+2. Unten erscheinen zwei Buttons: "1. Change Directory" und "2. Start"
+3. "1. Change Directory" drücken und Ordner auswählen, in dem die Dateien liegen
+  3.1 **Wichtig!**: Im Ordner müssen sowohl .csv-Dateien (Patientenbuch) als auch .CON-Dateien liegen, sonst funktioniert das Programm nicht.
+  3.2 Sollte man aus irgendeinem Grund nur die CON-Datei erstellen wollen, so kann man einfach eine leere .csv-Datei erstellen und in den Ordner legen.
+4. "2. Start" drücken und warten. In dem Ordner, in dem auch die Roh-Dateien abgelegt wurden, wird jetzt eine Excel-Datei "CON-Export-Datum" und "Patientenbuch-Datum" erstellt.
 
-
-# CSV-Writer
-
-Wichtig ist:
-
-1. Zuerst einen Ordner auswählen, in denen **alle** Dateien, die mit .csv enden, zusammen- 
-geführt werden. 
-2. Das Programm erstellt eine "all.csv"-Datei, in der alle .csv Dateien zusammengeführt sind. 
-Diese Datei wird immer gleich aussehen, und ist eine "Roh-Datei". Um eine Excel Datei zu erhalten, 
-kann man diese einfach in Excel öffnen und die durch ein Komma getrennte Werte in Spalten auf-
-teilen. 
-Die zweite Datei ist eine .xlsx-Datei, deren Namen man vorher auswählen kann. Diese ist bereits fest strukturiert (nach den 
-Vorgaben, die wir sonst immer für das Patientenbuch und den Privatpatienten-Export benötigt haben). 
