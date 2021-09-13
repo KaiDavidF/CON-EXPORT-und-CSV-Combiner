@@ -1,6 +1,6 @@
 #Funktionweise#
 
-Das Programm erstellt **Patientenbuch & CON-Datei**. 
+Das Programm con_und_csv... erstellt **Patientenbuch & CON-Datei**. 
 1. Programm über "Run" im Jupyter Notebook ausführen
 2. Unten erscheinen zwei Buttons: "1. Change Directory" und "2. Start"
 3. "1. Change Directory" drücken und Ordner auswählen, in dem die Dateien liegen <br/>
@@ -8,3 +8,6 @@ Das Programm erstellt **Patientenbuch & CON-Datei**.
   3.2 Sollte man aus irgendeinem Grund nur die CON-Datei erstellen wollen, so kann man einfach eine leere .csv-Datei erstellen und in den Ordner legen.
 4. "2. Start" drücken und warten. In dem Ordner, in dem auch die Roh-Dateien abgelegt wurden, wird jetzt eine Excel-Datei "CON-Export-Datum" und "Patientenbuch-Datum" erstellt.
 
+Das Programm csv-writer... erstellt nur ein **Patientenbuch**. 
+Dieses Programm verwendet man daher separat für die Privat & SZ Dateien.
+Die Funktionsweise ist jedoch gleich wie oben beschrieben.
